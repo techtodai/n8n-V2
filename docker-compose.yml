@@ -23,6 +23,7 @@ services:
       DB_POSTGRESDB_USER: n8n
       DB_POSTGRESDB_SCHEMA: n8n
       DB_POSTGRESDB_PASSWORD: db_supersecurepassword
+      N8N_SECURE_COOKIE=false
     depends_on:
       - postgres
     volumes:
